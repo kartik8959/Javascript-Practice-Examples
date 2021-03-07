@@ -1,0 +1,42 @@
+<script>
+   /* function fun_one()
+    {
+        var x=10;
+        var y=20;
+        return ()=>
+        {
+            console.log(x);
+            console.log(y);
+
+        }
+    }
+    fun_one()()*/
+    
+    /*for(var i=0;i<5;i++)
+    {
+      ((i)=>
+      {
+        setTimeout(()=>
+        {
+            console.log(i)
+        },5000);
+
+      })(i) ;
+    }
+    */
+    var d=5;
+    const outfuc=(a)=>
+    {
+        let b=10;
+        const innerfuc=()=>
+        {
+            let sum=a+b
+            console.log(`sum of two number,${sum}`)
+        }
+        return innerfuc;
+    }
+let inner =outfuc(5);
+inner()
+
+   
+</script>

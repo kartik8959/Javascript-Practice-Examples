@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="my-btn">click here</button>
+    <script>
+        const throttle=(fn,delay)=>
+        {
+            let last=0;
+            return function(...args)
+            {
+                let now=new Date().getTime();
+
+                if(now-last<delay)
+                {
+                    console.log(now,last,now-last)
+                    return;
+                }
+        
+                last=now
+                
+                return  fn(...args)
+            }
+
+        }
+
+        document.getElementById('my-btn').addEventListener('click',throttle(e=>
+        {
+            console.log("clicked");
+
+        },5000));
+    </script>
+    
+</body>
+</html>

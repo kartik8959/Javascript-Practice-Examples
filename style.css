@@ -1,0 +1,41 @@
+nav{
+    border:1px solid orangered;
+    width:100%;
+    background-color: orangered;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+div{
+    background-color: rgb(15, 34, 39);
+    color:whitesmoke;
+    text-align: center;
+    padding: 12px;
+    margin: 0px 10px 0px 10px;
+   
+}
+h1{
+    font-size: 50px;
+}
+button
+{
+    font-size:22px;
+    padding: 14px;
+    margin:15px;
+    font-weight: 800;
+    font-family:'Times New Roman', Times, serif;
+    color:blue
+    
+}
+body
+{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}

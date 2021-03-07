@@ -1,0 +1,98 @@
+<!-- <script>
+    function class_one(){}
+    class_one.prototype.dbfun=function()
+    {
+        return "mysql Data Soon"
+    };
+    function class_two()
+    {}
+    class_one.prototype=Object.create(class_one.prototype);
+    class_two.prototype.dbfun=function(){
+        return "MOngoDb data soon"
+    }
+    let obj=new class_two();
+    console.log(obj.dbfun()) 
+</script>
+-->
+<!-- <script>
+    function *fun_one()
+    {
+        yield "hello_one";
+        yield "hello_two";
+        yield "hello_three";
+        yield "hello_four";
+        yield "hello_five";
+    }
+    
+    let my_cursor=fun_one();
+    console.log(my_cursor.next());
+    console.log(my_cursor.next());
+    console.log(my_cursor.next());
+    console.log(my_cursor.next());
+    console.log(my_cursor.next());
+    console.log(my_cursor.next());
+   
+</script> -->
+
+
+<!-- <script>
+    function *fun_one()
+    {
+        yield 100;
+        yield *fun_two();
+        yield 300;
+       
+    }
+    function *fun_two()
+    {
+        yield 200;
+
+    }
+
+    let cursor=fun_one()
+    console.log(cursor.next());
+    console.log(cursor.next());
+    console.log(cursor.next());
+    console.log(cursor.next());
+
+</script> -->
+
+
+
+
+
+<!-- <script>
+    function *fun_one()
+{
+    yield 100;
+    yield 200;
+    return 300;
+    yield 400;
+
+
+}
+let cursor=fun_one();
+console.log(cursor.next());
+console.log(cursor.next());
+console.log(cursor.next());
+console.log(cursor.next());
+</script> -->
+
+
+
+<!-- immidate invokable functional expression -->
+<!-- <script>
+    (()=>
+{
+    console.log("immidiate invokable functional expression");
+})()
+</script> -->
+
+
+<script>
+    let res=((param1,param2,param3)=>{
+        return `Mean stack Means ${param1},=====,${param2},${param3}`;
+    })('Angular','React js','Mongo db')
+
+    console.log(res);
+</script>

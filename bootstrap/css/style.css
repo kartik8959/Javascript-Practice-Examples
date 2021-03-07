@@ -1,0 +1,27 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-info
+{
+    background:linear-gradient(45deg,darkslategray,cornflowerblue);
+}
+.btn-primary
+{
+    background:linear-gradient(45deg,darkslategray,blueviolet);
+}
+.btn-secondary
+{
+    background:linear-gradient(45deg,darkslategray,purple);
+}
+.btn-secondary,.bg-secondary
+{
+    background:linear-gradient(45deg,darkslategray,limegreen);
+}
+.btn-warning,.bg-warning
+{
+    background:linear-gradient(66deg,darkslategray,orangered);
+}
+.btn-warning
+{
+    background:linear-gradient(66deg,darkslategray,black);
+}

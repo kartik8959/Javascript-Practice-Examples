@@ -1,0 +1,114 @@
+<!-- <script>
+    function class_name()
+    {
+        this.sub_one="node js";
+        this.sub_two="Angular";
+        this.sub_three="react js";
+    }
+    let obj=new class_name();
+    console.log(obj.sub_one,obj.sub_two,obj.sub_three);
+</script> -->
+<!-- 
+<script>
+    /*function class_one(arg1,arg2,arg3)
+    {
+        this.var1=arg1;
+        this.var2=arg2;
+        this.var3=arg3;
+    }
+    let obj1=new class_one("python",'java','scala');
+    console.log(obj1.var1);
+    console.log(obj1.var2);
+    console.log(obj1.var3);
+*/
+   function  class_one(arg1,arg2,arg3)
+    {
+        this.var1=arg1;
+        this.var2=arg2;
+        this.var3=arg3;
+    };
+    let obj=new class_one("Mongoose",'Nodejs','casssandradb');
+    console.log(obj.var1,obj.var2,obj.var3);
+
+</script> -->
+
+
+
+
+<!-- <script>
+    function class_one()
+    {
+        this.sub_one="React Js";
+        this.sub_two="Angular js";
+        this.sub_three="Mongo Db";
+
+        this.getsub1=function()
+        {
+            return this.sub_one;
+        }
+        this.getsub2=function()
+        {
+            return this.sub_two;
+        }
+        this.getsub3=function()
+        {
+            return this.sub_three;
+        }
+    }
+    let obj=new class_one();
+    console.log(obj.getsub1(),obj.getsub2(),obj.getsub3());
+</script> -->
+
+
+
+
+<!-- 
+<script>
+    function class_one()
+    {
+
+    };
+
+    class_one.prototype.var_one="Node Js";
+    class_one.prototype.var_two="Angular";
+    class_one.prototype.var_three="java";
+
+    class_one.prototype.funone=function()
+    {
+        return this.var_one;
+    }
+    class_one.prototype.fun2=function()
+    {
+        return this.var_two
+    }
+    class_one.prototype.fun3=function()
+    {
+        return this.var_three
+    }
+    let obj=new class_one();
+
+    console.log(obj.funone(),obj.fun2(),obj.fun3())
+</script> -->
+
+
+
+
+
+<script>
+    function parent()
+    {}
+
+    parent.prototype.var_one="hello_1";
+
+    function child()
+    {}
+    child.prototype=Object.create(parent.prototype)
+    child.prototype.var_two="hello_two";
+
+    function child2()
+    {}
+    child2.prototype=Object.create(child.prototype)
+    child2.prototype.var_three="heloooooo";
+    let ob=new  child2();
+    console.log(ob.var_one,ob.var_two,ob.var_three);
+</script>

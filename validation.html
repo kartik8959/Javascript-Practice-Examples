@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>User Form</legend>
+
+            <div id="unb" class="common">
+                <label for="uname" class="lbls">user name</label>
+                <input type="text" name="uname"  id="unm" required>
+                <p id="uerr"></p>
+            </div>
+            <div>
+                <label for="email" class="lbls">email</label>
+                <input type="email" name="email" id="em" required>
+                <p id="merr"></p>
+            </div>
+    
+            <div id="pwb" class="common">
+                <label for="upwd" class="lbls">password</label>
+                <input type="password" name="upwd" maxlength="15" id="pwd" required>
+            </div>
+    
+            <div id="cpwb" class="common">
+                <label for="cupwd" >retype password</label>
+                <input type="password"   name="upwd" id="cpwd" required>
+                <p id="perr"></p>
+            </div>
+            <div class="common">
+                <button id="btn">login</button>
+        </fieldset>
+        
+        
+    </form>
+    <script src="validation.js"></script>
+    
+</body>
+</html>
